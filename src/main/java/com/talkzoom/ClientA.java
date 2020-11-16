@@ -1,4 +1,4 @@
-package main.java.com.talkzoom;
+package com.talkzoom;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -13,7 +13,7 @@ import java.net.Socket;
 public class ClientA {
 
   public static void main(String[] args) throws IOException {
-    Socket socket = new Socket("10.39.3.221", 65532);
+    Socket socket = new Socket("x.x.x.x", 65532);
     OutputStream outputStream = socket.getOutputStream();
     outputStream.write("你好".getBytes());
     outputStream.close();

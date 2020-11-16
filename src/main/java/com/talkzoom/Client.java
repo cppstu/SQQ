@@ -1,4 +1,4 @@
-package main.java.com.talkzoom;
+package com.talkzoom;
 
 import java.io.IOException;
 import java.io.InputStream;
